@@ -1,0 +1,19 @@
+written the main api app (project.py)
+created a dockerfile so that it can be build upon the image "adana-weather". (command: docker build -t adana-weather)
+once that is done with, we run the image with the command "docker run -p 8000:8000 adana-weather" to launch the api via container.
+NOTE: I've specified the port in the commnd above since I experienced some trouple while launching.
+
+
+links: 
+
+using local terminal;
+192.168.1.102:8000
+192.168.1.102:8000/city/?=adana
+
+using docker;
+http://localhost:8000
+http://localhost:8000/city/?=adana
+
+Thanks :)
+
+Abdullah KASRI
